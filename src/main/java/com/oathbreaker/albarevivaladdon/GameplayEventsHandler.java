@@ -52,7 +52,7 @@ public class GameplayEventsHandler
         {
             PlayerLivesData livesData = serverPlayer.getData(RevivalAddon.LIVES_ATTACHMENT.get());
 
-            if (livesData.getLives() <= 0)
+            if (livesData.getLives() <= 0 && !livesData.isImmortal())
             {
                 MinecraftServer server = serverPlayer.getServer();
                 if (server != null)
