@@ -1,0 +1,13 @@
+{
+  "itemGroup.albarevivaladdon": "Example Mod Tab",
+  "block.albarevivaladdon.example_block": "Example Block",
+  "item.albarevivaladdon.example_item": "Example Item",
+
+  "albarevivaladdon.configuration.title": "Revival Addon Configs",
+  "albarevivaladdon.configuration.section.albarevivaladdon.common.toml": "Revival Addon Configs",
+  "albarevivaladdon.configuration.section.albarevivaladdon.common.toml.title": "Revival Addon Configs",
+  "albarevivaladdon.configuration.items": "Item List",
+  "albarevivaladdon.configuration.logDirtBlock": "Log Dirt Block",
+  "albarevivaladdon.configuration.magicNumberIntroduction": "Magic Number Text",
+  "albarevivaladdon.configuration.magicNumber": "Magic Number"
+}
