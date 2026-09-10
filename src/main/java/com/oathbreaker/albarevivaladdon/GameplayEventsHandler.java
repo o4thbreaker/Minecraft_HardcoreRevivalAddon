@@ -28,6 +28,7 @@ public class GameplayEventsHandler
             PlayerLivesData livesData = serverPlayer.getData(RevivalAddon.LIVES_ATTACHMENT.get());
 
             livesData.decrement();
+            serverPlayer.setData(RevivalAddon.LIVES_ATTACHMENT.get(), livesData);
 
             int remainingLives = livesData.getLives();
 

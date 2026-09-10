@@ -26,6 +26,8 @@ public class ModCommands
 
                                 PlayerLivesData data = target.getData(RevivalAddon.LIVES_ATTACHMENT.get());
                                 data.setLives(amount);
+                                target.setData(RevivalAddon.LIVES_ATTACHMENT.get(), data);
+
                                 context.getSource().sendSuccess(() -> Component.literal("§aSet " + amount + " lives for " + target.getScoreboardName()), true);
                                 return 1;
                             })

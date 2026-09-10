@@ -35,6 +35,7 @@ public class RevivalAddon {
             () -> AttachmentType.builder(() -> new PlayerLivesData(3, false))
                     .serialize(PlayerLivesData.CODEC)
                     .copyOnDeath() // to copy the values on death
+                    .sync((holder, to) -> holder == to, PlayerLivesData.STREAM_CODEC)
                     .build()
     );
 
